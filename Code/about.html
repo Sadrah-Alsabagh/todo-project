@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>ToDo list</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="icon" type="image/x-icon" href="./asset/maajjovk.bmp">
+    <link rel="stylesheet" href="./style/index.css">
+
+    <style>
+      body {margin:0;}
+      
+      .navbar {
+        overflow: hidden;
+        background-color: #333;
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+      
+      .navbar a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      .navbar a:hover {
+        background: #ddd;
+        color: black;
+      }
+      
+      .main {
+        padding: 16px;
+        margin-top: 30px;
+        height: 1500px; 
+      }
+      </style>
+
+<style>
+  .avatar {
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  </style>
+
+  <style>
+    input[type=text], select {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 70%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #f0aae5;
+  }
+  
+  #form {
+    border-radius: 5px;
+    background-color: #e2f67e;
+    padding: 20px;
+  }
+  </style>
+</head>
+<body>
+    <header>
+        <div class="container" >
+            <img src="./asset/maajjovk.bmp" alt="Logo" width="100 px" height="100 px" id="Logo" >
+           <h1 id="ToDoHeading">ToDo List</h1>
+           </div>
+           <br>            
+
+          <div class="navbar">
+            <a href="./index.html">Home</a>         
+            <a href="./about.html">About</a>
+             <a href="#news">News</a>
+          </div>
+    </header>
+
+<main>
+
+<section class="information">
+  <img src="./asset/z5619ys6.bmp" alt="Avatar" class="avatar">
+<h3 id="name">Sedra Al-Sabbagh</h3>
+<p id ="discription">Software Engineering.<br> I'm 21 years old. I'm Syrian.<br> I'm a software engineer student in ASAC.</p>
+</section>
+
+<section id="form">
+<form action="/action_page.php">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" Name="name" value="Sedra"><br>
+
+    <label for="email">Email:</label><br>
+    <input type="text" id="email" Email="email" value="sedrasabbagh33@gmail.com"><br><br>
+    <label for="message">Message:</label><br>
+    <input type="text" id="message" Message="message" value="ToDo list it's list of tasks you need to complete or things that you want to do."><br><br>  
+        <button type="submit" >Submit</button>
+  </form> </section>
+
+</main>
+<footer> <h2>&copy;</h2> </footer>
+</body>
+</html>

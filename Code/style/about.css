@@ -1,0 +1,86 @@
+#Logo{
+    border-radius: 50%;
+    border: 3px solid black;
+   float:left; 
+   margin-top: 35px;
+   margin-left: 40%;
+}
+#ToDoHeading{
+    font-weight: bold;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 300%;
+    font-display: initial;
+    padding-left: 20px;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 40%;
+}
+   .container{
+    width:100%;
+    height:auto;
+    padding:1%;
+    display:block;
+    justify-content: center;
+
+   
+}
+
+ a {
+    color:white;
+} 
+
+#discription{
+    font-size: 40px;
+    padding-left: 100px;
+}
+#name{
+    font-size: 100px;
+    padding: 1%;
+}
+
+
+
+
+
+
+/* main{
+    font-size: 150%;
+    
+}
+
+#Discription{
+    margin-top: 50px;
+   color: rgb(218, 6, 6);
+    
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+box-sizing: border-box;
+width: 50%;
+border: #333 2px solid ;
+
+}
+.dishesName{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkred;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 3px solid black;
+   float:left; 
+
+  } */
+
+/*  
+body{
+    background-color: rgb(250, 212, 199);
+}
+footer{
+    margin-top: 20%;
+
+}
+#contact{
+    font-family: Arial, Helvetica, sans-serif;
+} 
