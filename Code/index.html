@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>ToDo list</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="icon" type="image/x-icon" href="./asset/maajjovk.bmp">
+    <link rel="stylesheet" href="./style/index.css">
+
+    <style>
+      body {margin:0;}
+      
+      .navbar {
+        overflow: hidden;
+        background-color: #333;
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+      
+      .navbar a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      .navbar a:hover {
+        background: #ddd;
+        color: black;
+      }
+      
+      .main {
+        padding: 16px;
+        margin-top: 30px;
+        height: 1500px; 
+      }
+      </style>
+</head>
+<body>
+    <header>
+        <div class="container" >
+            <img src="./asset/maajjovk.bmp" alt="Logo" width="100 px" height="100 px" id="Logo" >
+           <h1 id="ToDoHeading">ToDo List</h1>
+           </div>
+           <br>       
+        
+
+          <div class="navbar">
+            <a href="./index.html">Home</a>         
+            <a href="./about.html">About</a>
+             <a href="#news">News</a>
+          </div>
+    </header>
+    <main>
+        <style>
+            table, th, td {
+              border:1px solid rgb(158, 4, 148);
+            }
+            </style>
+            <div class="list">
+        <table>
+            <tr style="width: 80px; height:40px" id="firstRow">
+              <th>Task</th>
+              <th style="width: 80px; height:40px">status</th>
+            </tr>
+
+            <tr style="width: 80px; height:40px">
+              <td>Study Styling by Css </td>             
+              <td style="width: 80px; height:40px"><input type="checkbox"></td>
+             
+            </tr>
+            <tr style="width: 80px; height:40px">            
+                <td>Go to GYM</td>
+                <td style="width: 80px; height:40px"><input type="checkbox"></td>
+              </tr>
+           
+              <tr style="width: 80px; height:40px">
+                <td>Buy a gift for my sister birhday</td>
+                <td style="width: 80px; height:40px"><input type="checkbox"></td>
+              </tr>   
+
+              <tr style="width: 80px; height:40px">
+                <td>Fix my car</td>
+                <td style="width: 80px; height:40px"><input type="checkbox"></td>
+              </tr>
+
+              <tr style="width: 80px; height:40px">
+                <td>Go shopping with my mother</td>
+                <td style="width: 80px; height:40px"><input type="checkbox"></td>
+              </tr>     
+          </table>
+        </div>
+    </main>
+    <footer> <h2>&copy;</h2> </footer>
+</body>
+</html>
+
+
+

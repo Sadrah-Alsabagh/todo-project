@@ -1,0 +1,60 @@
+#Logo{
+    border-radius: 50%;
+    border: 3px solid black;
+   float:left; 
+   margin-top: 35px;
+   margin-left: 40%;
+}
+#ToDoHeading{
+    font-weight: bold;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 300%;
+    font-display: initial;
+    padding-left: 20px;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 40%;
+}
+   .container{
+    width:100%;
+    height:auto;
+    padding:1%;
+    display:block;
+    justify-content: center;
+
+   
+}
+
+
+
+ a {
+    color:white;
+} 
+
+
+
+
+body{
+   display: block;
+    justify-content: center;
+    align-items: center;
+    background: bisque;
+}
+.list{
+    position: relative;
+    background: #fff;
+    width: 350px;
+    margin-left:auto;margin-right:auto; 
+    margin-top: 50px;
+    text-align: center;
+}
+.list #firstRow{
+background: rgb(181, 63, 162);
+padding: 10px 20px;
+font-weight: 600;
+}
+.list td input:checked {
+text-decoration: line-through;
+color: #ccc;
+     
+}
